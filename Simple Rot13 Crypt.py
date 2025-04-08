@@ -14,12 +14,3 @@ def rot13_crypt(secretkey):
         
 secret = input("Gib hier deinen zu Text zum Ver/Entschlüsseln ein\n>>> Bitte nur in GROßBUCHSTABEN <<<\n")
 rot13_crypt(secret)
- 
- 
- 
-
-    
-
-
-    
- 
