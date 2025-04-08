@@ -14,3 +14,6 @@ def rot13_crypt(secretkey):
         
 secret = input("Gib hier deinen zu Text zum Ver/Entschlüsseln ein\n>>> Bitte nur in GROßBUCHSTABEN <<<\n")
 rot13_crypt(secret)
+
+#Ein einfaches Tool zur ROT13-Verschlüsselung und Entschlüsselung – jeder Buchstabe wird um 13 Stellen im Alphabet verschoben.
+#Hinweis: Nur für Großbuchstaben (A–Z) geeignet!
