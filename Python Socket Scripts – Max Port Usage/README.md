@@ -1,6 +1,6 @@
 # Simple Python Socket Scripts – Max Port Usage
 
-Diese zwei kleinen Python-Skripte zeigen eine einfache Socket-Kommunikation zwischen einem Server und einem Client. Verwendet wird der höchste mögliche Port (`65535`) – ideal zum Testen und Lernen.
+Diese zwei kleinen Python-Skripte zeigen eine einfache Socket-Kommunikation zwischen einem Server und einem Client. Verwendet werden bis zu 64.512 Ports (`65536-1024`) – ideal zum Testen und Lernen.
 
 ## Dateien
 
@@ -26,7 +26,7 @@ Diese zwei kleinen Python-Skripte zeigen eine einfache Socket-Kommunikation zwis
 
 ## Hinweis
 
-- Getestet mit Python 3.11 unter macOS/Linux/Windows
+- Getestet mit Python 3.11 unter Linux
 - Die Skripte sind nur zu Lernzwecken gedacht (keine Sicherheit/Fehlerbehandlung)
 
 ---
