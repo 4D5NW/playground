@@ -1,0 +1,6 @@
+Startbefehl
+docker run -d --name mm-news \
+  -e MM_WEBHOOK_URL="https://xxxxxxxxxxxxx" \
+  -v mmnewsdata:/var/tmp \
+  --restart unless-stopped \
+  mm-news
